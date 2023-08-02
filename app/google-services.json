@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "694113531588",
+    "project_id": "mt-st-henrys-school",
+    "storage_bucket": "mt-st-henrys-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694113531588:android:ecd394ccd33c2fc1983b91",
+        "android_client_info": {
+          "package_name": "com.mt_st_henrys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694113531588-3o1vvmdbiil5nmmqdr8ei8sie1gbtis1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2H1glLgztMmuRfnaFo_N4fWC8--T6Z2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694113531588-3o1vvmdbiil5nmmqdr8ei8sie1gbtis1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

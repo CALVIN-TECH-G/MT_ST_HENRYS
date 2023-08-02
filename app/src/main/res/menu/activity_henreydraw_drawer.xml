@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item android:title="About Us">
+            <menu>
+                <item
+                    android:id="@+id/nav_values"
+                    android:icon="@drawable/values"
+                    android:title="Values" />
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/direct"
+                    android:title="Admin" />
+
+
+
+            </menu>
+
+        </item>
+
+
+
+        <item android:title="Admission">
+            <menu>
+                <item
+                    android:id="@+id/nav_inquire"
+                    android:icon="@drawable/inquire"
+                    android:title=" School Inquiry" />
+                <item
+                    android:id="@+id/nav_calender"
+                    android:icon="@drawable/calender"
+                    android:title="School Calender" />
+
+
+
+            </menu>
+
+        </item>
+
+
+
+        <item android:title="Curriculum">
+            <menu>
+                <item
+                    android:id="@+id/nav_academics"
+                    android:icon="@drawable/results"
+                    android:title="Academics" />
+                <item
+                    android:id="@+id/nav_probation"
+                    android:icon="@drawable/direct"
+                    android:title="Academic Probation" />
+                <item
+                    android:id="@+id/nav_facilities"
+                    android:icon="@drawable/hostel"
+                    android:title="Facilities" />
+                <item
+                    android:id="@+id/nav_galary"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Gallary" />
+
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/onlineschool"
+                    android:title="Online Application" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/alumin"
+                    android:title="Alumin" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contact"
+                    android:title="Contact Us" />
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+</menu>

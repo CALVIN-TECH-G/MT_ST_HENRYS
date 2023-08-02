@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mt_st_henrys.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mt_st_henrys.ui.gallery.GalleryFragment"
+        android:label="Online Application"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mt_st_henrys.ui.slideshow.SlideshowFragment"
+        android:label="Alumin"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.mt_st_henrys.contact"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+
+
+    <fragment
+        android:id="@+id/nav_academics"
+        android:name="com.mt_st_henrys.academics"
+        android:label="Academics"
+        tools:layout="@layout/fragment_academics" />
+    <fragment
+        android:id="@+id/nav_probation"
+        android:name="com.mt_st_henrys.probation"
+        android:label="Academic Probation"
+        tools:layout="@layout/fragment_probation" />
+    <fragment
+        android:id="@+id/nav_facilities"
+        android:name="com.mt_st_henrys.facilities"
+        android:label="Facilities"
+        tools:layout="@layout/fragment_facilities" />
+    <fragment
+        android:id="@+id/nav_galary"
+        android:name="com.mt_st_henrys.gal"
+        android:label="Gallary"
+        tools:layout="@layout/fragment_gal" />
+
+    <fragment
+        android:id="@+id/nav_inquire"
+        android:name="com.mt_st_henrys.inquire"
+        android:label="School Inquiry"
+        tools:layout="@layout/fragment_inquire" />
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.mt_st_henrys.calender"
+        android:label="School Calender"
+        tools:layout="@layout/fragment_calender" />
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.mt_st_henrys.admin"
+        android:label="Admin"
+        tools:layout="@layout/fragment_admin" />
+    <fragment
+        android:id="@+id/nav_values"
+        android:name="com.mt_st_henrys.values"
+        android:label="Our Values"
+        tools:layout="@layout/fragment_values" />
+
+
+</navigation>
